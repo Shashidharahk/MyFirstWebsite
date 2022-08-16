@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+
+        header,
+        section,
+        nav {
+            background-color: #35424a;
+
+        }
+
+        header {
+            display: flex;
+
+            align-items: center;
+            padding: 10px;
+
+        }
+
+        section {
+            flex: 3;
+            font-size: 25px;
+            color: white;
+            margin-right: 10px;
+
+
+
+        }
+
+        nav {
+            flex: 1;
+
+        }
+
+        ul {
+            display: flex;
+
+        }
+
+        main {
+            text-align: center;
+            background-image: url('./img/showcase.jpg');
+            padding: 80px;
+        }
+
+        main h1 {
+            font-size: 60px;
+            color: white;
+
+        }
+
+        main p {
+            font-size: 20px;
+            color: white;
+        }
+
+        span {
+            color: #e8491d;
+        }
+
+        .row3 {
+
+            display: flex;
+            background-color: #35424a;
+            align-items: center;
+            color: white;
+            padding: 10px;
+            justify-content: space-between;
+
+        }
+
+        .row3 h3 {
+            flex: 1;
+            margin-left: 55px;
+        }
+
+        .row3 form {
+            flex: 1;
+            align-items: center;
+            margin-left: 250px;
+
+        }
+
+        .btn {
+            background-color: #e8491d;
+            padding: 8px;
+        }
+
+        .email {
+            padding: 8px;
+
+        }
+
+        .row4 {
+            display: flex;
+            justify-content: space-between;
+            margin: 80px;
+        }
+
+
+        .maincontainer {
+            display: flex;
+            padding: 10px;
+            text-align: center;
+        }
+
+
+        footer {
+            background-color: #e8491d;
+            color: #ffff;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <section>
+            <h1><span>Acme</span> Web Design</h1>
+        </section>
+        <nav>
+            <ul style="list-style-type: none;text-decoration: none;">
+                <li style="color: #e8491d;margin-right: 20px" ;>HOME</a></li>
+                <li style="color: white;margin-right: 20px;">ABOUT</a></li>
+                <li style="color: white;margin-right: 20px;">SERVICES</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1>Affordable Professional Web Design</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque officia veritatis repellendus, a excepturi
+            esse quos aut illo culpa laudantium id libero dolore, ut consequuntur quod nisi exercitationem deserunt
+            ducimus.</p>
+    </main>
+    <div class="row3">
+        <h3>Subscribe To Our Newsletter</h3>
+        <form>
+            <input type="search" class="email" placeholder="Enter Email..." style="width:230px" >
+            <input type="button" value="Subscribe" class="btn" style="color:#ffff ;width: 100px;">
+        </form>
+    </div>
+    <div class="maincontainer">
+        <div id="html5img">
+            <img src="./img/logo_html.png">
+            <h3>HTML5 Markup</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, velit. Tenetur voluptates adipisci
+                quaerat exercitationem officiis repudiandae earum recusandae, provident pariatur, voluptatibus
+            </p>
+        </div>
+        <div id="css3">
+            <img src="./img/logo_css.png">
+            <h3>CSS3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, velit. Tenetur voluptates adipisci
+                quaerat exercitationem officiis repudiandae earum recusandae, provident pariatur, voluptatibus
+            </p>
+        </div>
+        <div id="graphicdesign">
+            <img src="./img/logo_brush.png">
+            <h3>Graphic Design</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, velit. Tenetur voluptates adipisci
+                quaerat exercitationem officiis repudiandae earum recusandae, provident pariatur, voluptatibus
+            </p>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>Acme Web Design,Copyright &#169;2020</p>
+    </footer>
+
+</body>
+
+</html>
